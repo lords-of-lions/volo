@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "speech2text"
+version = "0.1.0"
+description = ""
+authors = ["Eric Buehler  <31450790+buehlere@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+transformers = { extras = ["speech", "sentencepiece"], version = "*" }
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
